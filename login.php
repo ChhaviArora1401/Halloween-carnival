@@ -10,15 +10,14 @@ if(!empty($_POST["login"]) && $_POST["email"]!=''&& $_POST["loginPass"]!='') {
 	
 	$password = $_POST['loginPass'];
 	
-	$password = md5($password);
+	$password = $password;
 	
 	$sqlQuery = "
 		SELECT username 
 		FROM members 
 		WHERE email='".$email."' AND password='".$password."'";
-	
 	$resultSet = $connect->query($sqlQuery);		
-	
+
 	if($resultSet->num_rows){
 		
 		$userDetails = $resultSet->fetch_assoc();
