@@ -16,6 +16,4 @@ if ($connect->connect_error) {
 //   $result -> free_result();
 // }
 
-error_log("NO GALTI MyABe");
-echo "Helo" ;
 ?>
