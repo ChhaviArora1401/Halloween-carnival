@@ -5,11 +5,11 @@ if(!isset($_SESSION["user"])){
  header("location:index.php");
 }
 ?>
-<title>Login System with PHP & MySQL</title>
+<title>FtF</title>
 <?php include('inc/container.php');?>
 <div class="container">	
 	<div class="col-md-12">   
-	<h2>Login System with PHP & MySQL</h2>	
+	<h2>No entry</h2>	
 	</div>
 	<div class="col-md-6">                    
 	<h3>Welcome - <?php echo $_SESSION["user"]; ?></h3>
