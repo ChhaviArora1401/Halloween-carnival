@@ -1,3 +1,3 @@
 # fuzzy-memory
-link: http://halloween.rf.gd/
+link: http://halloween-carnival.rf.gd/
 
