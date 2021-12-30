@@ -39,7 +39,7 @@ CREATE TABLE `members` (
 --
 
 INSERT INTO `members` (`id`, `username`, `email`, `password`) VALUES
-(1, 'lucky', 'lucky@phpzag.com', '202cb962ac59075b964b07152d234b70');
+(1, 'lucky', 'lucky@gmail.com', '294de3557d9d00b3d2d8a1e6aab028cf');
 
 --
 -- Indexes for dumped tables
