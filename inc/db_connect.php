@@ -15,5 +15,4 @@ if ($connect->connect_error) {
 //   // Free result set
 //   $result -> free_result();
 // }
-
 ?>
